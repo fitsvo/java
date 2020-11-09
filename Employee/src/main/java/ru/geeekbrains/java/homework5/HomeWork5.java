@@ -12,7 +12,7 @@ public class HomeWork5 {
         
         //5. С помощью цикла вывести информацию только о сотрудниках старше 40 лет.
         for (Employee i: empArray) {
-            if (i.age > 40) i.print();
+            if (i.getAge() > 40) i.info();
         }
     }
 }
