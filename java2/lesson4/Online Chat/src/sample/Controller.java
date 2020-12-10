@@ -1,9 +1,11 @@
 package sample;
 
 import javafx.collections.FXCollections;
-import javafx.collections.ObservableList;
 import javafx.fxml.FXML;
-import javafx.scene.control.*;
+import javafx.scene.control.Button;
+import javafx.scene.control.ListView;
+import javafx.scene.control.TextArea;
+import javafx.scene.control.TextField;
 
 public class Controller {
 
@@ -18,7 +20,7 @@ public class Controller {
 
     @FXML
     public void initialize(){
-        friendsListView.setItems(FXCollections.observableArrayList(Main.FRIENDS_LIST));
+        this.friendsListView.setItems(FXCollections.observableArrayList(Main.FRIENDS_LIST));
     }
     @FXML
     public void sendText(){
@@ -28,5 +30,4 @@ public class Controller {
             textField.clear();
         }
     }
-
 }
