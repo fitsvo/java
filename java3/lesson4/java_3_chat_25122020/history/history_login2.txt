@@ -1,0 +1,7 @@
+nick2 : fd gsdfg dsfgdsf g
+nick2 : sdf gdsfg dfsg dsfg
+nick2 : sfbdgnb
+[ nick2 ] private [ nick2 ] : dfbd
+[ 1 ] private [ nick2 ] : dfbdgn
+1 : dfbd
+nick2 : dgndgn
